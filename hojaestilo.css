@@ -1,0 +1,40 @@
+/* .miestilo {
+    border: 50;
+    border-style: dashed;
+    border-style: rgb(0, 0, 0);
+}
+
+.miestilo2 {
+    border-color: rgb(136, 162, 34);
+}
+.fila{
+    display: inline;
+} */
+/* div {
+    border-left-color: rgb(30, 30, 26);
+    border-right-color: orange;
+    border-top-color: blue;
+    border-bottom-color: rgb(214, 63, 88);
+    border: 2;
+    border-style: solid;
+} */
+.centrar{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bordesolido{
+    border-style: solid;
+    border-color:lavender;
+}
+.cuadro{
+    width: 80%;
+    border-width: 3px;
+    border-top: 15px yellow solid;
+    border-right: 15px blue solid;
+    border-bottom: 15px red solid;
+    /* border-bottom: 15px pink;
+    border-style: solid; */
+
+}

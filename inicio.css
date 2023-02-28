@@ -1,0 +1,75 @@
+body {
+    background-color: #000000;
+  }
+  
+  .login {
+    width: 450px;
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+  
+  .login h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+  }
+  
+  form {
+    margin-top: 40px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .cuadro-usuario {
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/user--v1.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .cuadro-usuario input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  
+  .cuadro-contrasena {
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/lock--v1.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .cuadro-contrasena input[type="password"] {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
